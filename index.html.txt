@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beispielseite</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Mein Blog</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Kultur</a></li>
+                <li><a href="#">Sport</a></li>
+                <li><a href="#">Podcasts</a></li>
+                <li><a href="#">Über uns</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Neueste Artikel</h2>
+            <div class="hero-content">
+                <div class="hero-item">
+                    <img src="https://via.placeholder.com/600x400" alt="Artikel Bild">
+                    <h3>Artikel Titel 1</h3>
+                    <p>Kurze Beschreibung des Artikels...</p>
+                    <a href="#">Weiterlesen</a>
+                </div>
+                <div class="hero-item">
+                    <img src="https://via.placeholder.com/600x400" alt="Artikel Bild">
+                    <h3>Artikel Titel 2</h3>
+                    <p>Kurze Beschreibung des Artikels...</p>
+                    <a href="#">Weiterlesen</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="article-list">
+            <h2>Weitere Artikel</h2>
+            <div class="article-item">
+                <h3>Artikel Titel 3</h3>
+                <p>Kurze Beschreibung des Artikels...</p>
+                <a href="#">Weiterlesen</a>
+            </div>
+            <div class="article-item">
+                <h3>Artikel Titel 4</h3>
+                <p>Kurze Beschreibung des Artikels...</p>
+                <a href="#">Weiterlesen</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mein Blog. Alle Rechte vorbehalten.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
